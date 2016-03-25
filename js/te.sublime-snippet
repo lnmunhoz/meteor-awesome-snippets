@@ -6,7 +6,7 @@ Template.${1:myTemplate}.events({
 	}
 });
 ]]></content>
-	<tabTrigger>tpe</tabTrigger>
+	<tabTrigger>te</tabTrigger>
 	<scope>source.js</scope>
 	<description>Template.myTemplate.events</description>
 </snippet>
