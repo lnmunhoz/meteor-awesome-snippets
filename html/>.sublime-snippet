@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{{> ${1:myTemplate}}}
+]]></content>
+	<tabTrigger>></tabTrigger>
+	<scope>text.html,text.htm</scope>
+	<description>{{> myTemplate}}</description>
+</snippet>

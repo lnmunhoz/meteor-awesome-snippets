@@ -3,6 +3,11 @@ A collection of snippets that makes working with meteor easy!
 
 ## HTML
 
+### [>] {{> myTemplate}}
+```handlebars
+{{> ${1:myTemplate}}}
+```
+
 ### [af] autoForm
 ```handlebars
 {{#autoForm id="${1}" collection="${2}" type="${3}"}}
