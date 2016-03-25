@@ -24,6 +24,23 @@ A collection of snippets that makes working with meteor easy!
 {{/autoForm}}
 ```
 
+### [each] each block
+```handlebars
+{{#each ${1:helper}}} 
+	${2}
+{{/each}}
+```
+
+### [eache] each else block
+```handlebars
+{{#each ${1:helper}}} 
+	${2}
+
+	{{else}}
+
+{{/each}}
+```
+
 ### [if] if block
 ```handlebars
 {{#if ${1:helper}}} 
@@ -70,6 +87,12 @@ A collection of snippets that makes working with meteor easy!
 Template.subscriptionsReady
 ```
 
+### [with] with block
+```handlebars
+{{#with ${1:helper}}} 
+	${2}
+{{/with}}
+```
  
 ## JavaScript
 
