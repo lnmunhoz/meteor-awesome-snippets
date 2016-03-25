@@ -1,4 +1,5 @@
 # meteor-awesome-snippets
+A collection of snippets that makes working with meteor easy!
 
 ## HTML
 
@@ -127,6 +128,8 @@ Template.${1:myTemplate}.onRendered(function() {
 });
 ```
 
+## Contributing
+Please send your PR!
 
 
 
