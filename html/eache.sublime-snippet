@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{{#each ${1:helper}}} 
+	${2}
+
+	{{else}}
+
+{{/each}}
+]]></content>
+	<tabTrigger>eache</tabTrigger>
+	<scope>text.html,text.htm</scope>
+	<description>each else block</description>
+</snippet>
+
