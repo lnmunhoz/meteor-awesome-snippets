@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:Collection}.findOne({
+	${2:key}: ${3:value}
+});
+]]></content>
+	<tabTrigger>cfo</tabTrigger>
+	<scope>source.js</scope>
+	<description>Collection.findOne</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Meteor.publish('${1}', function(${2:params}){
+	return ${3:Collection}.find({${4}});	
+});
+]]></content>
+	<tabTrigger>mp</tabTrigger>
+	<scope>source.js</scope>
+	<description>Meteor.publish</description>
+</snippet>

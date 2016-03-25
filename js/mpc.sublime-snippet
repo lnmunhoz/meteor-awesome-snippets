@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+Meteor.publishComposite('${1}', function(${2:params}) {
+	return {
+		find() {
+			return ${3:Collection}.find({${4}});
+		},
+		children: [{
+			find(${5:topLevelDocument}) {
+				return ${6:Collection}.find({${7}});
+			}
+		}]
+	};
+});
+]]></content>
+	<tabTrigger>mcp</tabTrigger>
+	<scope>source.js</scope>
+	<description>Meteor.publishComposite</description>
+</snippet>

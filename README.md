@@ -73,6 +73,51 @@ Template.subscriptionsReady
  
 ## JavaScript
 
+### [cf] Collection.find
+```js
+${1:Collection}.find({
+	${2:key}: ${3:value}
+});
+```
+
+### [cfo] Collection.findOne
+```js
+${1:Collection}.findOne({
+	${2:key}: ${3:value}
+});
+```
+
+### [cu] Collection.update
+```js
+${1:Collection}.update({
+	${2:key}: ${3:value}
+}, {
+	${4:modifier}
+});
+```
+
+### [mp] Meteor.publish
+```js
+Meteor.publish('${1}', function(${2:params}){
+	return ${3:Collection}.find({${4}});	
+});
+```
+
+### [mpc] Meteor.publishComposite
+```js
+Meteor.publishComposite('${1}', function(${2:params}) {
+	return {
+		find() {
+			return ${3:Collection}.find({${4}});
+		},
+		children: [{
+			find(${5:topLevelDocument}) {
+				return ${6:Collection}.find({${7}});
+			}
+		}]
+	};
+});
+```
 
 ### [t] Template
 ```js

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:Collection}.update({
+	${2:key}: ${3:value}
+}, {
+	${4:modifier}
+});
+]]></content>
+	<tabTrigger>cu</tabTrigger>
+	<scope>source.js</scope>
+	<description>Collection.update</description>
+</snippet>

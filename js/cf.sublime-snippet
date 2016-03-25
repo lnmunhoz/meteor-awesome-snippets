@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:Collection}.find({
+	${2:key}: ${3:value}
+});
+]]></content>
+	<tabTrigger>cf</tabTrigger>
+	<scope>source.js</scope>
+	<description>Collection.find</description>
+</snippet>
