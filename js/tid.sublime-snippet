@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Template.instance().data
+]]></content>
+	<tabTrigger>tid</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template.instance().data</description>
+</snippet>

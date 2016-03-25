@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{{#if ${1:helper}}} 
+	${2}
+
+	{{else}}
+	
+{{/if}}
+]]></content>
+	<tabTrigger>ife</tabTrigger>
+	<scope>text.html,text.htm</scope>
+	<description>if else block</description>
+</snippet>
+

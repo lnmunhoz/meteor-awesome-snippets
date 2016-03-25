@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+Template.${1:myTemplate}.onRendered(function() {
+  ${2}
+});
+]]></content>
+	<tabTrigger>tor</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template.myTemplate.onRendered</description>
+</snippet>

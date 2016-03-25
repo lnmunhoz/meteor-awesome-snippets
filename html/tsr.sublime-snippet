@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Template.subscriptionsReady
+]]></content>
+	<tabTrigger>tsr</tabTrigger>
+	<scope>text.html,text.htm</scope>
+	<description>Template.subscriptionsReady</description>
+</snippet>
+

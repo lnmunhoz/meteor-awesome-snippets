@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Template.${1:myTemplate}.helpers({
+	${2:helper}() {
+		${3}
+	}
+});
+]]></content>
+	<tabTrigger>th</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template.myTemplate.helpers</description>
+</snippet>

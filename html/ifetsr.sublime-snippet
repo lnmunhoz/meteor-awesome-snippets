@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{{#if Template.subscriptionsReady}}
+	${1}
+
+	{{else}}
+
+{{/if}}
+]]></content>
+	<tabTrigger>ifetsr</tabTrigger>
+	<scope>text.html,text.htm</scope>
+	<description>if else block Template.subscriptionsReady</description>
+</snippet>
+

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+Template.${1:myTemplate}.events({
+	'${2:click} ${3:selector}': function (event, template) {
+		${4}
+	}
+});
+]]></content>
+	<tabTrigger>tpe</tabTrigger>
+	<scope>source.js</scope>
+	<description>Template.myTemplate.events</description>
+</snippet>
