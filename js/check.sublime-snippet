@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+check(${1:myVariable}, ${2:type})
+]]></content>
+	<tabTrigger>check</tabTrigger>
+	<scope>source.js</scope>
+	<description>check(myVariable, type)</description>
+</snippet>

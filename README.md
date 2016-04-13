@@ -115,6 +115,11 @@ ${1:Collection}.findOne({
 });
 ```
 
+### [check] check
+```
+check(${1:myVariable}, ${2:type})
+```
+
 ### [cu] Collection.update
 ```js
 ${1:Collection}.update({
